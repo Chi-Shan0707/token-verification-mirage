@@ -1,0 +1,47 @@
+# Data files (too large for git)
+data/
+*.jsonl
+*.parquet
+*.npz
+*.csv
+*.h5
+*.safetensors
+
+# Model weights and caches
+models/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Outputs (regeneratable)
+outputs/
+results/
+scratch/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Environment / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
