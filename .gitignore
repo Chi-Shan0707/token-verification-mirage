@@ -35,6 +35,9 @@ scratch/
 .env
 .env.*
 
+# Local-only notes (not for the repository)
+local/
+
 # OS files
 .DS_Store
 Thumbs.db
